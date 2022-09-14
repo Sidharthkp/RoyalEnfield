@@ -2,17 +2,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
-body::-webkit-scrollbar
-{
-    width: 5px;
-    background-color: grey;
-}
-body::-webkit-scrollbar-thumb
-{
-    width: 5px;
-    background-color: black;
-}
-
 *{
     margin: 0px;
 }
