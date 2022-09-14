@@ -81,139 +81,6 @@ html {
   color: #000000;
 }
 
-.slide {
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
-  height: 550px;
-  position: relative;
-}
-
-.slide1 {
-  background-image: url("https://www.royalenfield.com/content/dam/royal-enfield/india/accessories/banner/campaign/slip-on-silencer.jpg");
-}
-
-.slide1 > a {
-  top: 45%;
-  left: 10%;
-}
-
-.slide2 {
-  background-image: url("https://www.royalenfield.com/content/dam/royal-enfield/india/home/banner/desktop/royal-enfield-hfi.png");
-}
-
-.slide2 > a {
-  top: 80%;
-  left: 45%;
-}
-
-.slide3 {
-  background-image: url("https://www.royalenfield.com/content/dam/royal-enfield/india/motorcycles/classic-350/home/bereborn-homepage.png");
-}
-
-.slide3 > a {
-  top: 45%;
-  left: 70%;
-}
-
-.slide4 {
-  background-image: url("https://www.royalenfield.com/content/dam/royal-enfield/india/home/banner/desktop/gtcup-home.jpg");
-}
-
-.slide4 > a {
-  top: 50%;
-  left: 45%;
-}
-
-.slide5 {
-  background-image: url("https://www.royalenfield.com/content/dam/royal-enfield/india/home/banner/desktop/miy-riding-jacket.jpg");
-}
-
-.slide5 > a {
-  top: 45%;
-  left: 10%;
-}
-
-.slide6 {
-  background-image: url("https://www.royalenfield.com/content/dam/royal-enfield/india/motorcycles/classic-350/podcast/homepage-podcast.jpg");
-}
-
-.slide6 > h2 {
-  position: absolute;
-  width: 30%;
-  color: #ffffff;
-  top: 30%;
-  left: 60%;
-}
-
-.slide6 > p {
-  position: absolute;
-  color: #ffffff;
-  font-size: 14px;
-  font-weight: bold;
-  top: 47%;
-  left: 60%;
-}
-
-.slide6 > a {
-  top: 53%;
-  left: 60%;
-}
-
-.slide7 {
-  background-image: url("https://www.royalenfield.com/content/dam/royal-enfield/india/motorcycles/classic-350/home/royal-enfield-timeless-classic.png");
-}
-
-.slide7 > a {
-  top: 80%;
-  left: 45%;
-}
-
-.slide8 {
-  background-image: url("https://www.royalenfield.com/content/dam/royal-enfield/india/home/banner/desktop/interceptor-homepage.jpg");
-}
-
-.slide8 > a {
-  top: 50%;
-  left: 45%;
-}
-
-.slide9 {
-  background-image: url("https://www.royalenfield.com/content/dam/royal-enfield/india/home/banner/desktop/continental-gt-homepage.jpg");
-}
-
-.slide9 > a {
-  top: 50%;
-  left: 45%;
-}
-
-.slide10 {
-  background-image: url("https://www.royalenfield.com/content/dam/royal-enfield/india/home/banner/desktop/meteor.jpg");
-}
-
-.slide10 > a {
-  top: 45%;
-  left: 10%;
-}
-
-.slide11 {
-  background-image: url("https://www.royalenfield.com/content/dam/royal-enfield/india/home/banner/desktop/royal-enfield-himalayan-motorcycle.jpg");
-}
-
-.slide11 > img {
-  position: absolute;
-  width: 300px;
-  height: 85px;
-  top: 30%;
-  left: 9%;
-}
-
-.slide11 > a {
-  top: 55%;
-  left: 11%;
-}
-
-
 #newsGrid {
   width: 100%;
   display: grid;
@@ -415,15 +282,10 @@ html {
   color: #000000;
   text-decoration: none;
 }
-
-/* ACCESORIES DIV */
-
-/* SUNIL PART */
 #accessories {
   box-sizing: border-box;
   display: flex;
   background-color: #212121;
-  /* border: 1px solid red; */
   height: 60px;
   justify-content: flex-start;
   font-family: "Open Sans", sans-serif;
@@ -665,60 +527,6 @@ html {
     display: none;
   }
 
-  .slide {
-    cursor: pointer;
-    background-size: cover;
-    height: 450px;
-  }
-
-  .slide1 {
-    background-image: url("https://www.royalenfield.com/content/dam/royal-enfield/india/accessories/banner/campaign/slip_on_silencer.jpg");
-  }
-
-  .slide2 {
-    background-image: url("https://www.royalenfield.com/content/dam/royal-enfield/india/home/banner/mobile/royal_enfield_hfi.png");
-  }
-
-  .slide3 {
-    background-image: url("https://www.royalenfield.com/content/dam/royal-enfield/india/motorcycles/classic-350/home/classic_350_home.png");
-  }
-
-  .slide4 {
-    background-image: url("https://www.royalenfield.com/content/dam/royal-enfield/india/home/banner/mobile/gtcup_home.jpg");
-  }
-
-  .slide5 {
-    background-image: url("https://www.royalenfield.com/content/dam/royal-enfield/india/home/banner/mobile/miy_riding_jacket.jpg");
-  }
-
-  .slide6 {
-    background-image: url("https://www.royalenfield.com/content/dam/royal-enfield/india/motorcycles/classic-350/podcast/homepage_podcast.jpg");
-  }
-
-  .slide6 h2,
-  p {
-    display: none;
-  }
-
-  .slide7 {
-    background-image: url("https://www.royalenfield.com/content/dam/royal-enfield/india/motorcycles/classic-350/home/royal_enfield_timeless_classic.png");
-  }
-
-  .slide8 {
-    background-image: url("https://www.royalenfield.com/content/dam/royal-enfield/india/home/banner/mobile/interceptor_homepage.jpg");
-  }
-
-  .slide9 {
-    background-image: url("https://www.royalenfield.com/content/dam/royal-enfield/india/home/banner/mobile/continental_gt_homepage.jpg");
-  }
-
-  .slide10 {
-    background-image: url("https://www.royalenfield.com/content/dam/royal-enfield/india/home/motorcycles/mobile/meteor.jpg");
-  }
-
-  .slide11 {
-    background-image: url("https://www.royalenfield.com/content/dam/royal-enfield/india/home/motorcycles/mobile/royal_enfield_himalayan_motorcycle.jpg");
-  }
 
   #newsGrid {
     grid-template-columns: 1fr;
