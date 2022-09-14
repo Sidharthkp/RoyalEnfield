@@ -80,32 +80,6 @@ html {
   background-color: #ffffff;
   color: #000000;
 }
-.carousel .carousel-indicators li {
-  width: 10px;
-  height: 10px;
-  margin-left: 15px;
-  border-radius: 100%;
-}
-.carousel .carousel-indicators .active {
-  background-color: #d1291c;
-}
-
-.carousel-item a {
-  display: inline-block;
-  font-size: 14px;
-  font-weight: bold;
-  color: #ffffff;
-  border: 2px solid #ffffff;
-  padding: 10px;
-  padding-right: 20px;
-  position: absolute;
-}
-
-.carousel-item a:hover {
-  background-color: #ffffff;
-  color: #000000;
-  text-decoration: none;
-}
 
 .slide {
   background-repeat: no-repeat;
@@ -688,16 +662,6 @@ html {
   }
 
   #knowMore {
-    display: none;
-  }
-
-
-  .carousel .carousel-indicators li {
-    width: 8px;
-    height: 8px;
-  }
-
-  .carousel-item a {
     display: none;
   }
 
